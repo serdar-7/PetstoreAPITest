@@ -92,9 +92,3 @@ Feature: Petstore Tests
       | 23    | Cancan  | 14         | Cat          | http://image3               | Leather,Fury  | available |
 ```
 ---
-
-
-
-
-
-"# PetstoreAPITest" 
