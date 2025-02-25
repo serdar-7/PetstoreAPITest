@@ -1,8 +1,9 @@
 
 # **Swagger Petstore API Test Framework**
-**Automated API Testing Framework** using **RestAssured, Cucumber, and Java**, designed to test the Swagger Petstore API(https://petstore.swagger.io/).
+**Automated API Testing Framework** designed to test the Swagger Petstore API(https://petstore.swagger.io/).
 
 ##  **Built With**
+- **Java**
 - **RestAssured** → API Testing
 - **Cucumber** → BDD Test Framework
 - **Junit** → Test Framework
@@ -73,7 +74,6 @@ mvn clean verify -Dgroups="Scenario1"
 `target/cucumber-reports-html/classpath-features-Petstore-feature.html`
 
 ---
-
 
 ##  **Dynamic Data and Parameters**
 ### **Framework supports dynamic data by using Cucumber Datatables and Scenario Outline features**
