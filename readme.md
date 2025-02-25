@@ -70,7 +70,7 @@ mvn clean verify
 mvn clean verify -Dgroups="Scenario1"
 
 **Test reports will be generated in:**  
-`target/cucumber-reports-html/classpath-features-Petstore-feature.htm`
+`target/cucumber-reports-html/classpath-features-Petstore-feature.html`
 
 ---
 
