@@ -51,7 +51,7 @@ Make sure you have the following installed:
 ### **Installation**
 Clone this repository:
 git clone https://github.com/serdar-7/PetstoreAPITest.git
-cd PetstoreAPITest
+
 
 ### Install dependencies:
 mvn clean install
