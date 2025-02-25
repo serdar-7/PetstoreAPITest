@@ -54,9 +54,6 @@ Clone this repository:
 git clone https://github.com/serdar-7/PetstoreAPITest.git
 
 
-### Install dependencies:
-mvn clean install
-
 ###  Configuration
 Update the src/config.properties file with API-specific details like BASEURI or APIKEY credentials and PATH informations.
 
@@ -64,7 +61,10 @@ Update the src/config.properties file with API-specific details like BASEURI or 
 ---
 
 ###  Run all tests:
-mvn clean verify
+
+mvn clean verify 
+
+It will download the dependencies first and start to execute scenarios.
 
 
 ###  Run tests for a specific feature:
