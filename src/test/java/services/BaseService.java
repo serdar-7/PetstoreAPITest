@@ -15,7 +15,7 @@ import static io.restassured.RestAssured.given;
 public class BaseService {
 
     private final RequestSpecBuilder defaultRequestSpecBuilder = new RequestSpecBuilder();
-    private static final String BASE_URL = PropertiesFile.getProperty("baseURL");
+    private static final String BASE_URI = PropertiesFile.getProperty("baseURI");
 
 
     public BaseService() {
@@ -32,7 +32,7 @@ public class BaseService {
      **/
     private void configSetup() {
         getDefaultRequestSpecBuilder()
-                .setBaseUri(BASE_URL)
+                .setBaseUri(BASE_URI)
                 .addHeader(PropertiesFile.getProperty("apikey"), PropertiesFile.getProperty("key"))
                 .setAccept("application/json")
                 .setContentType(ContentType.JSON);
