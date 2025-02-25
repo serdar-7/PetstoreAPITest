@@ -3,12 +3,14 @@
 **Automated API Testing Framework** designed to test the Swagger Petstore API(https://petstore.swagger.io/).
 
 ##  **Built With**
-- **Java**
+- **Java** -> Programming Language
 - **RestAssured** → API Testing
 - **Cucumber** → BDD Test Framework
 - **Junit** → Test Framework
 - **Jackson** → JSON Serialization
 - **Maven** → Dependency Management
+
+---
 
 ##  **Features**
 - **Uses RestAssured for API Testing**  
@@ -16,6 +18,15 @@
 - **Handles dynamic request bodies & parameters**  
 - **Supports API Key**  
 - **Generates test reports**  
+
+---
+
+## **Petstore.feature file includes the following scenarios.**
+- **Scenario1** → Create and Verify a Pet
+- **Scenario2** → Update a Pet's Details
+- **Scenario3** → Find Pets by Status
+- **Scenario4** → Delete a Pet
+- **Scenario5** → Error Handling
 
 ---
 
@@ -31,9 +42,11 @@
 │   │   │       ├── stepdefs/          # Cucumber step definitions
 │   │   │       └── utils/             # Helper classes for dynamic data(PayloadUtils,PropertiesFile)
 │   │   ├── resources/
-│   │   │   └── features/              # Cucumber feature files
-│   │    
-│   └── config.properties              # Configuration file  
+                ├── features/          # Cucumber feature files
+│   │           └── schemas/           # Schema json files to be validated 
+│   │
+│   │
+├── config.properties                  # Configuration file     
 ├── pom.xml                            # Maven configuration
 └── README.md                          # This file
 ```
