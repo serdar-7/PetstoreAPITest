@@ -67,11 +67,10 @@ mvn clean verify
 
 
 ###  Run tests for a specific feature:
-mvn clean verify -Dgroup="Scenario3"-Dcucumber.options="src/test/features/Petstore.feature"
-
+mvn clean verify -Dgroups="Scenario1"
 
 **Test reports will be generated in:**  
-`target/cucumber-reports-html/feature-overview.html`
+`target/cucumber-reports-html/classpath-features-Petstore-feature.htm`
 
 ---
 
